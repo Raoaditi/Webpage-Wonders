@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+.navbar{
+  height: 60px;
+  background-color: #9ab3f5;
+}
+.navbar li{
+  display: inline;
+  float: right;
+  padding: 10px 20px;
+  text-align: center;
+  margin-top: 10px;
+}
+.navbar a{color: #fff;}
+.header{
+  text-align: center;
+}
+
+.card-1{
+  height: 200px;
+  width: 200px;
+  background-color: #e5e5e5;
+  margin: 55px;
+  position: relative;
+  border-radius: 4px;
+}
+.card-1 p{
+  margin-top: 50px;
+  text-align: center;
+  font-size: 13px;
+}
+.card-img{
+  height: 100px;
+  width: auto;
+  border-radius: 100%;
+  position: absolute;
+  top: -50px;
+  left: 42px;
+}
+.card-content{
+    padding: 10px;
+}
+.card-btn{
+  display: block;
+  width: 50%;
+  background-color: #150485;
+  color: #e5e5e5;
+  text-align: center;
+  border: none;
+  padding: 5px;
+  position: absolute;
+  top: 160px;
+  left: 48px;
+}
+
+.section-hr{
+  width: 3em;
+  height: 4px;
+  background-color: #FFB140;
+  margin: auto;
+  border-radius: 20px;
+}
+
+
+/* Login */
+input{
+  width: 80%;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+label{
+  margin-bottom: 5px;
+}
+.login{
+  width: 60%;
+  margin: auto;
+  background-color: #e5e5e5;
+  padding: 30px;
+  margin-top: 50px;
+}
+/* SignUP */
+.signup{
+  width: 60%;
+  margin: auto;
+  background-color: #e5e5e5;
+  padding: 30px;
+  margin-top: 50px;
+}
+
+/* Footer */
+.footer{
+  background: #9ab3f5;
+  text-align: center;
+}
+
+.fa{
+  padding: 20px;
+  font-size: 30px;
+  width: 40px;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #7579e7;
+}
